@@ -1,0 +1,96 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f9f9f9;
+ color: #333;
+ background-image:url(./assets/background.jpg); 
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-sizing: border-box;
+
+ #About,#skills,#projects,#achievements,#contact {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    p {
+    margin-bottom: 15px;
+    text-align:justify;
+    padding-left: 350px;
+    }
+}
+ header {
+ background-color:#008080;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+ background-size: cover;
+
+ img{
+ height: 100px;
+ width: 100px;
+ border-radius: 50%;
+ }
+}
+
+ nav ul {
+ list-style: none;
+ padding: 10px;
+ margin: 10px;
+    li {
+display: inline;
+margin: 0 10px;
+    a {
+color: #fff;
+text-decoration: none;
+    }
+}
+}
+.intro {
+margin: 20px 0;
+}
+
+.intro h1 {
+margin-bottom: 10px;
+img{
+height: 75px;
+width: 75px;
+border-radius: 50%;
+}
+}
+
+.intro p {
+margin-bottom: 20px;
+}
+
+.buttons .btn {
+background-color:#a2a8d3 ;
+color: #113f67;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+margin: 5px;
+}
+
+.buttons .btn:hover {
+background-color: #e0e0e0;
+}
+
+section {
+padding: 20px;
+text-align: center;
+color: white;
+h2{
+color:#008080;
+}
+}
+
+footer {
+background-color:#113f67;
+color: #fff;
+text-align: center;
+padding: 10px;
+width: 100%;
+bottom: 0;
+}
+}
